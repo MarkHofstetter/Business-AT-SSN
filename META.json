@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "verify Austrian Social Securtiy numbers",
    "author" : [
       "Mark Hofstetter <mark@hofstetter.at>"
    ],
@@ -58,7 +58,7 @@
          "web" : "https://github.com/MarkHofstetter/Business-AT-SSN"
       }
    },
-   "version" : "0.01",
+   "version" : "0.9",
    "x_contributors" : [
       "Mark Hofstetter <mark@univie.ac.at>",
       "MarkHofstetter <mark@hofstetter.at>"

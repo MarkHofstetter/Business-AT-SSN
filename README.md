@@ -1,6 +1,6 @@
 # NAME
 
-Business::AT::SSN - Blah blah blah
+Business::AT::SSN
 
 # SYNOPSIS
 
@@ -8,7 +8,31 @@ Business::AT::SSN - Blah blah blah
 
 # DESCRIPTION
 
-Business::AT::SSN is
+Business::AT::SSN checks Austrian social security numbers (Sozialversicherungsnummer) 
+for wellformed-ness according to 
+https://www.sozialversicherung.at/portal27/portal/ecardportal/content/contentWindow?&contentid=10008.551806&action=b&cacheability=PAGE
+
+if possible (not all SSNs contain a valid date) it also creates a DateTime Object with the 
+date of birth
+
+# METHODS
+
+- my $obj = Business::AT::SSN->new(\[$ssn\])
+
+    The new constructor optionally takes a 
+
+- $obj->ssn(\[$ssn\])
+
+    if no argument is given, it returns the current ssn number.
+    if an argument is provided, it will set the ssn number.
+
+- $obj->is\_valid()
+
+    Returns true if the ssn number is valid.
+
+- $obj->date\_of\_birth
+
+    Returns the date of birth as a DateTime object
 
 # AUTHOR
 
@@ -24,3 +48,11 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 # SEE ALSO
+
+# POD ERRORS
+
+Hey! **The above document had some coding errors, which are explained below:**
+
+- Around line 44:
+
+    You forgot a '=back' before '=head1'

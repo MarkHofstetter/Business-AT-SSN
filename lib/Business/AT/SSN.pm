@@ -5,6 +5,8 @@ use DateTime;
 use Try::Tiny;
 our $VERSION = '0.9';
 
+# ABSTRACT: verify Austrian Social Securtiy numbers
+
 has 'ssn'            => (isa => 'Str', is => 'rw');
 has 'date_of_birth'  => (isa => 'DateTime', is => 'rw', clearer => 'clear_dob',);
 has 'error_messages' => (isa => 'ArrayRef', is => 'rw', clearer => 'clear' );

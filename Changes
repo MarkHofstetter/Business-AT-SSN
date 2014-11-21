@@ -2,3 +2,5 @@ Revision history for Business-AT-SSN
 
 {{$NEXT}}
         - Initial release
+        - Takes a String and checks wether the String may be a
+          valid Austrian Social Security Number (Sozialversicherungsnummer)
