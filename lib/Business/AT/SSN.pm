@@ -116,8 +116,9 @@ Returns true if the ssn number is valid.
 =item $obj->date_of_birth
 
 Returns the date of birth as a DateTime object
- 
 
+=back
+ 
 =head1 AUTHOR
 
 Mark Hofstetter E<lt>mark@hofstetter.atE<gt>
