@@ -16,7 +16,6 @@ inc/
 /Makefile.old
 /MANIFEST.bak
 !META.json
-/META.json
 /META.yml
 /MYMETA.*
 MYMETA.*
