@@ -1,6 +1,8 @@
 Revision history for Business-AT-SSN
 
 {{$NEXT}}
+        - fixed prereqs 
+        - added some docs
 
 0.9  2014-11-21 19:11:44 CET
         - Initial release

@@ -26,10 +26,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.039",
-            "Moose" : "0",
-            "Try::Tiny" : "0",
-            "DateTime" : "0"
+            "Module::Build::Tiny" : "0.039"
          }
       },
       "develop" : {
@@ -61,7 +58,7 @@
          "web" : "https://github.com/MarkHofstetter/Business-AT-SSN"
       }
    },
-   "version" : "0.9",
+   "version" : "0.91",
    "x_contributors" : [
       "Mark Hofstetter <mark@univie.ac.at>",
       "MarkHofstetter <mark@hofstetter.at>"

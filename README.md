@@ -19,7 +19,7 @@ date of birth
 
 - my $obj = Business::AT::SSN->new(\[$ssn\])
 
-    The new constructor optionally takes a 
+    The new constructor optionally takes a ssn number
 
 - $obj->ssn(\[$ssn\])
 
@@ -33,6 +33,10 @@ date of birth
 - $obj->date\_of\_birth
 
     Returns the date of birth as a DateTime object
+
+- $array\_ref = $obj->error\_messages
+
+    Returns a array ref of error messages after calling is\_valid
 
 # AUTHOR
 
