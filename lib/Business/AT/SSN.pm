@@ -3,7 +3,7 @@ package Business::AT::SSN;
 use Moose;
 use DateTime;
 use Try::Tiny;
-our $VERSION = '0.9';
+our $VERSION = '0.91';
 
 # ABSTRACT: verify Austrian Social Securtiy numbers
 
@@ -102,7 +102,7 @@ date of birth
  
 =item my $obj = Business::AT::SSN->new([$ssn])
  
-The new constructor optionally takes a 
+The new constructor optionally takes a ssn number
  
 =item $obj->ssn([$ssn])
  
@@ -116,6 +116,10 @@ Returns true if the ssn number is valid.
 =item $obj->date_of_birth
 
 Returns the date of birth as a DateTime object
+
+=item $array_ref = $obj->error_messages
+
+Returns a array ref of error messages after calling is_valid
 
 =back
  

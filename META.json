@@ -26,7 +26,10 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.039"
+            "Module::Build::Tiny" : "0.039",
+            "Moose" : "0",
+            "Try::Tiny" : "0",
+            "DateTime" : "0"
          }
       },
       "develop" : {
