@@ -37,6 +37,9 @@
       },
       "runtime" : {
          "requires" : {
+            "DateTime" : "0",
+            "Moose" : "0",
+            "Try::Tiny" : "0",
             "perl" : "5.008005"
          }
       },
@@ -58,7 +61,7 @@
          "web" : "https://github.com/MarkHofstetter/Business-AT-SSN"
       }
    },
-   "version" : "0.91",
+   "version" : "0.92",
    "x_contributors" : [
       "Mark Hofstetter <mark@univie.ac.at>",
       "MarkHofstetter <mark@hofstetter.at>"

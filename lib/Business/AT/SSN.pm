@@ -3,7 +3,7 @@ package Business::AT::SSN;
 use Moose;
 use DateTime;
 use Try::Tiny;
-our $VERSION = '0.91';
+our $VERSION = '0.92';
 
 # ABSTRACT: verify Austrian Social Securtiy numbers
 

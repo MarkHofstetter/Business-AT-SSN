@@ -1,6 +1,7 @@
 Revision history for Business-AT-SSN
 
 {{$NEXT}}
+        - moved prereqs to cpanfile
 
 0.91  2014-11-23 20:33:32 CET
         - fixed prereqs 
